@@ -1,0 +1,13 @@
+name,ring,quadrant,isNew,description
+Test1,adoptar,herramientas,FALSE,"""<p>null</p>"" "
+Test2,prueba,herramientas,FALSE,"""<p>null</p>"" "
+Test3,evaluar,herramientas,FALSE,"""<p>null</p>"" "
+Angular JS,adoptar,arquitecturas-y-patrones,FALSE,"""<p>null</p>"" "
+Test2,prueba,arquitecturas-y-patrones,FALSE,"""<p>null</p>""  "
+Test3,evaluar,arquitecturas-y-patrones,FALSE,"""<p>null</p>"" "
+Test1,adoptar,lenguajes-y-frameworks,FALSE,"""<p>null</p>"" "
+Test2,prueba,lenguajes-y-frameworks,FALSE,"""<p>null</p>"" "
+Test3,evaluar,lenguajes-y-frameworks,FALSE,"""<p>null</p>"" "
+Test1,adoptar,servicios,FALSE,"""<p>null</p>"" "
+Test2,prueba,servicios,FALSE,"""<p>null</p>"" "
+Test3,evaluar,servicios,FALSE,"""<p>null</p>"" "
