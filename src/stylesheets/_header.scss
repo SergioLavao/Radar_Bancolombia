@@ -1,11 +1,12 @@
 header {
   text-align: center;
 
-
   // font-family: 'Courier New', Courier, monospace;
   // font-size: 15px;
 
-  .radar-title, .buttons-group, #alternative-buttons {
+  .radar-title,
+  .buttons-group,
+  #alternative-buttons {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -22,7 +23,6 @@ header {
     width: 100%;
 
     .radar-title__text {
-
       display: table-cell;
       width: 70%;
 
@@ -33,7 +33,7 @@ header {
         font-size: 40px;
         font-family: Nunito, Arito, sans-serif;
         font-weight: bold;
-        letter-spacing: -.04em;
+        letter-spacing: -0.04em;
         line-height: 0.8em;
         margin: 0;
         margin-right: 10px;
@@ -62,13 +62,14 @@ header {
     }
   }
 
-
-  .quadrant-btn--group, .multiple-sheet-button-group {
+  .quadrant-btn--group,
+  .multiple-sheet-button-group {
     text-align: left;
     padding-left: 10%;
   }
 
-  .print-radar-btn, .search-box {
+  .print-radar-btn,
+  .search-box {
     margin-left: auto;
     margin-right: 10%;
   }
@@ -96,7 +97,7 @@ header {
     // border-radius: 2px;
     padding: 10px 20px;
     cursor: pointer;
-    transition: all .2s ease-out;
+    transition: all 0.2s ease-out;
 
     background-color: inherit;
     color: $black;
@@ -111,24 +112,24 @@ header {
       font-weight: 600;
     }
 
-    &:hover, &.selected {
-
+    &:hover,
+    &.selected {
       &.first {
         color: black;
         background-color: inherit;
-        border-bottom: 2px solid $yellow
+        border-bottom: 2px solid $yellow;
       }
 
       &.second {
         color: black;
         background-color: inherit;
-        border-bottom: 2px solid $yellow
+        border-bottom: 2px solid $yellow;
       }
 
       &.third {
         color: black;
         background-color: inherit;
-        border-bottom: 2px solid $yellow
+        border-bottom: 2px solid $yellow;
       }
 
       &.fourth {
@@ -138,14 +139,14 @@ header {
       }
 
       &.print-radar {
-        box-shadow: 0 1px 8px 0 rgba(0,0,0,.14), 0 3px 8px 0 rgba(0,0,0,.11);
+        box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.14),
+          0 3px 8px 0 rgba(0, 0, 0, 0.11);
         color: black;
         background-color: $yellow;
       }
     }
 
     &.full-view {
-
       &.first {
         background-color: inherit;
         //color: $blue;
@@ -182,11 +183,11 @@ header {
       margin-top: 0;
       margin-bottom: 10px;
     }
-    
+
     .multiple-sheet-button {
       margin-right: 10px;
     }
-    
+
     .search-radar {
       border-bottom: 1px solid #aaa;
       font-family: Nunito, Arito, sans-serif;
@@ -195,7 +196,7 @@ header {
       background-repeat: no-repeat;
       background-position: 5px;
       outline: none;
-      
+
       &:focus {
         border-bottom: 1px solid $yellow;
         -webkit-box-shadow: none;
